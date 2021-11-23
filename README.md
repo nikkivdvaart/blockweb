@@ -40,11 +40,11 @@ Surface Plane
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home Page 
-<img src="images/homepage" width="375px" alt="Home Page - Soundcloud">
+<img src="images/homepage.png" width="375px" alt="Home Page - Soundcloud">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Song Page 
-<img src="images/songpage" width="375px" alt="Song Page - Soundcloud">
+<img src="images/songpage.png" width="375px" alt="Song Page - Soundcloud">
  
 </details>
 
