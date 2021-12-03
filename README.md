@@ -76,7 +76,7 @@ Song Page
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Voor de eerste gesprek had ik alle HTML klaar gemaakt van mijn eerste website. De meeste dingen waren goed behalve dat ik de images boven de h2 had, en eigenlijk moet de h2 eerst en dan de img. Ik had ook meerdere h1 en je mag er eigenlijk aleen 1 gerbuiken, vandaar heb ik de rest naar h2 en h3 verandert. 
 
 
 ### Agenda voor meeting
@@ -92,8 +92,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
+- h2, h3, h4 etc moeten eerst dan img
+- alleen 1 h1 hebben, de rest h2, h3, h4 etc 
 - nog een punt
 - ...
 
