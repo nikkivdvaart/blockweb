@@ -57,12 +57,11 @@ Artist Page
 
 ### de hele pagina: 
 <img src="images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets3.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/showmore.png" width="375px" alt="breakdown van een dynamisch deel">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -78,10 +77,13 @@ Artist Page
 ### Stand van zaken
 De breakdown schetsen gingen wel goed, ik kon alle html elementen identificeren. Wat ik lastig vond was niet het starten van de html maar het verzamelen van content. Niet alle afbeeldingen waren te vinden op de website waar ik de afbeelding kan downloaden. Dus ik moest screenshots maken en verzorgen dat alle afbeelding de zelfde maat waren en kwaliteit. Maar in het eind was alles goed gekomen!
 
+<img src="images/eerstepagina.png" width="375px" alt="Eerste Pagina">
+<img src="images/HTML.png" width="375px" alt="HTML">
+
 
 ### Agenda voor meeting
 <strong>Agenda Summary</strong>
-Voorbereiding:
+Vragen:
 - Ik had geen vragen voor de gesprek. Alles was gelukt met mijn HTML en wou alleen dat het gecheckt werdt.
 
 
@@ -90,8 +92,10 @@ Voorbereiding:
 - h2, h3, h4 etc moeten eerst dan img
 - alleen 1 h1 hebben, de rest h2, h3, h4 etc. 
 
+Voor dit eerste gesprek had ik alle HTML klaar gemaakt van mijn eerste website. De meeste dingen waren goed behalve dat ik de images boven de h2 had, en eigenlijk moet de h2 eerst en dan de img. Ik had ook meerdere h1 en je mag er alleen 1 in je HTML hebben, vandaar heb ik de rest naar h2 en h3 verandert.
+
 </details>
-Voor dit eerste gesprek had ik alle HTML klaar gemaakt van mijn eerste website. De meeste dingen waren goed behalve dat ik de images boven de h2 had, en eigenlijk moet de h2 eerst en dan de img. Ik had ook meerdere h1 en je mag er alleen 1 in je HTML hebben, vandaar heb ik de rest naar h2 en h3 verandert. 
+ 
 
 
 
@@ -103,10 +107,12 @@ Voor dit eerste gesprek had ik alle HTML klaar gemaakt van mijn eerste website. 
 ### Stand van zaken
 Deze week ben ik begonnen met de CSS van mijn eerste pagina. Om dit af te hebben op tijd voor de gesprek heb ik de werk verdeelt en dan kon ik ook goed focusen op een gedeelte, in plaats van alles te proberen te doen. Dit ging wel goed voor mij gevoel want ik begon gewoon bij de header en hier had ik geen problemen. In de main had ik well een paar problemen, bijvoorbeeld om de order te veranderen van HTML elementen was lastig, maar de probleem was dat ik de verkeerde element had geselecteerd! Dus het was een makkelijke fix. Voor de rest ging het best wel lekker. 
 
+<img src="images/css.png" width="375px" alt="Eerste Pagina">
+<img src="images/css2.png" width="375px" alt="CSS Eerste Pagina">
 
 ### Agenda voor meeting
 <strong>Agenda Summary</strong>
-Voorbereiding:
+Vragen:
 - De vragen die ik had waren in de werkgroep beantwoord en dus was mijn CSS gewoon klaar voor de eerste pagina en moest alleen wat feedback krijgen van de docent.
 
 
@@ -117,8 +123,10 @@ Voorbereiding:
 - Ik moet de bron vermelden van waar ij de Eric Meyer css reset heb gebruikt 
 - Voor de header styling het ik de button met position absolute gestijled maar dat is niet nodig, ik kan gewoon flexbox gebruiken om de stijl te bereiken.
 
-</details>
 In het algemeen was alles goed, alleen een paar kleine details die ik moet fixen/veranderen en ook wat leuke elementen (animatie, JS) toeveogen zodat ik een goede cijfer kan halen. Ik ben erg blij met de feedback en dat ik goed op weg ben! Nu ben ik klaar om met de tweede pagina te beginnen. 
+
+</details>
+
 
 
 
@@ -128,30 +136,39 @@ In het algemeen was alles goed, alleen een paar kleine details die ik moet fixen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+- met screenreader is het belangrijk dat het de goedeinformatie verteld en ook in een goede orde, anders is het niet duidelijk.
+- contrast kan veranderen met kleur blind mensen
+- belangrijk om alle klikbaare dingen duidelijk te maken en dat mensen doorheen kunnen klikken zonder trackpad.
+- Je moet ervoor zorgen dat de text wat groter is voor mensen met slecthe ogen.
 
 #### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+<strong>Hemifield Loss:</strong>
+- niks was moeilijk om te lezen want je kan nog de schermv oor je zien.
+- de enige ding dat zou moeilijk zijn is als je vanaf een mobiel zit en kijkt van de onderkant of zijkant. 
 
 
 #### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+<strong>Color</strong>
+- alles kreeg een gele kleur
+- wit was geel, oranje, was meer een rood
+- dus als het contrast van de kleuren veranderen dan moet je dit wel aanpassen zodat het duidelijk blijft voor iedereen.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+<img src="images/color.HEIC" width="375px" alt="Color">
 
 
 #### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+<strong>Blurry</strong>
+- tekst was moelijker te lezen
+- groote tekst/bold tekts was wel te zien en leesbaar
+- kleine text/dunner tekst was niet leesbaar
+- hier zou je de tekst grote kunnen aanpassen zodat er geen tekst die heel klein is 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+<img src="images/blurry.HEIC" width="375px" alt="Color">
 
 #### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+<strong>Screenreader</strong>
+- leest h2 eerst voor de img maar in principe is dit beter want dan weten ze wat dit afbeelding betekent.
+- alles zit in goed order
 
 </details>
 
@@ -165,28 +182,29 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had de HTML van mijn tweede pagina al gestart en dus moest alleen verder gaan met de CSS. De HTML ging prima maar de CSS was een beetje lastiger. Ik moest er over na denken hoe ik ermee ging met het gebruiken van 1 CSS bestand voor 2 HTML bestanden. In het eind had ik besloten om de body's een class te geven zodat ik de tweed pagina kon stylen. Dit ging heel goed! 
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+<strong>Agenda Summary</strong>
+Vragen:
+- Vraag hoe je de iconen krijgt (kan ze niet vinden in image extractor).
+- Hoe krijg je de "show more" "show less" feature
+- Waarom werkt mijn z-index niet
+- buttons naast elkaar krijgen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+<img src="images/buttons.png" width="375px" alt="buttons">
+<img src="images/buttons2.png" width="375px" alt="buttons">
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Iconen krijg je vanuit de code can de originele website, ze zijn svgs dus je kan die code copieren
+- show more show less doe je met JS, met classlists en text.content
+- z-index werkt alleen als de element positioned is 
+- buttons kunnen als een unordered list worden end an met flexbox naast elkaar komen
 
 </details>
+Ik kreeg veel nuttige feedback en ben klaar om door te werken! Nu kan ik verder werken met de CSS en alle kleine details afmaken. De balngrijkste dingen die ik nog moet doen is de site wat meer responsive maken, JS toevoegen, wat meer content toevoegen aan beide sites en wat meer animaties toevoegen.
 
 
 
@@ -198,11 +216,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Alles ging well goed bij het afmaken, de eneige ding dat heel lastig was was de JS om de show more show less feature te doen. Ik had veel opgezocht en kon het een beetje begrijpen maar uitendelijk heb ik een klasgenoot gevraagd om mij hierme te helpen. Het bleek ui dat er ging iets fout ging met de classes toevoegen en dan de code leesde de children niet. Maar in het eind was het opgelost met het veranderen van de span naar een div en ervoor te zorgen dat de JS de goede class toevoegd aan de HTML.
+
+<img src="images/showmore2.png" width="375px" alt="Show More">
+<img src="images/showless.png" width="375px" alt="Show Less">
+<img src="images/CSS3.png" width="375px" alt="CSS">
+<img src="images/HTML2.png" width="375px" alt="HTML">
+<img src="images/JS.png" width="375px" alt="JS">
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/eindresultaat1.png" width="375px" alt="Homepage">
+<img src="images/eindresultaat2.png" width="375px" alt="Artist Page">
+
 
 </details>
 
@@ -217,8 +243,9 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.w3schools.com/css/css3_gradients.asp —> gradient background 
+2. https://www.codegrepper.com/code-examples/css/how+to+get+rid+of+bullet+points+in+css —> getting rid of bullet points
+3. https://www.starr.net/is/type/htmlcodes.html —> “ü” code 
+4. https://www.geeksforgeeks.org/how-to-create-show-more-and-show-less-functionality-for-hiding-text-using-javascript/ —> show more show less
 
 </details>

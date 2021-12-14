@@ -188,7 +188,6 @@ ul {
   flex-direction:column;
 }
 
-.body1 section:nth-of-type(1) a:hover,
 .body1 section:nth-of-type(1) a:active,
 .body1 section:nth-of-type(1) a:focus {
   outline: 3px solid var(--soundc-orange);
@@ -216,7 +215,6 @@ ul {
   flex-direction:column;
 }
 
-.body1 section:nth-of-type(2) a:hover,
 .body1 section:nth-of-type(2) a:active,
 .body1 section:nth-of-type(2) a:focus {
   outline: 3px solid var(--soundc-orange);
@@ -251,8 +249,16 @@ ul {
    line-height:1.5em;
 }
 
+@media (min-width:600px) {
+  .body1 section:nth-of-type(3) {
+    width:70%;
+    margin:auto;
+  }
+}
 
-/* animatie for appstore badge  -  COME BACK TO NOTE WORKING*/
+
+
+/* animatie for appstore badge  -  COME BACK TO - NOT WORKING*/
 /* @keyframes appstore-animation {
   0% {
     transform: scale(1)
@@ -287,7 +293,6 @@ ul {
   flex-direction:column;
 }
 
-.body1 section:nth-of-type(4) a:hover,
 .body1 section:nth-of-type(4) a:active,
 .body1 section:nth-of-type(4) a:focus {
   outline: 3px solid var(--soundc-orange);
@@ -322,7 +327,6 @@ ul {
   flex-direction:column;
 }
 
-.body1 section:nth-of-type(5) a:hover,
 .body1 section:nth-of-type(5) a:active,
 .body1 section:nth-of-type(5) a:focus {
   outline: 3px solid var(--soundc-orange);
@@ -414,11 +418,27 @@ footer > ul > li > a:active {
 }
 
 
-footer > a > svg {
+.FooterSocialLinkItem_FooterSocialLinkLogo__3xTll {
   width:2em;
   margin: 0 1em 1em 1em;
 }
 
+/* social media icon animation */
+@keyframes social-animation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform:rotate(1turn);
+  }
+}
+
+.FooterSocialLinkItem_FooterSocialLinkLogo__3xTll:hover,
+.FooterSocialLinkItem_FooterSocialLinkLogo__3xTll:active,
+.FooterSocialLinkItem_FooterSocialLinkLogo__3xTll:focus {
+  animation-name: social-animation;
+  animation-duration: 2s;
+}
 
 
 /* TWEEDE PAGINA CSS */
@@ -450,30 +470,66 @@ footer > a > svg {
   padding:.5em 0 .5em 0;
 }
 
+@media (min-width:600px) {
+  .body2 section:nth-of-type(1) h1 {
+    font-size:2em;
+    padding-top:.7em;
+  }
+}
+
 /* svg */
 .User_UsernameIcon__3W2T1 {
   color:var(--link-color);
   width:1em;
 }
 
+/* eerste p styling */
 .body2 section:nth-of-type(1) p:nth-of-type(1) {
   font-size:1em;
-  padding:0 0 1em .6em;
+  /* padding:0 0 1em .6em; */
 }
 
+/* tweede p styling */
 .body2 section:nth-of-type(1) p:nth-of-type(2) {
+  color:white;
   font-size:1em;
-  padding:0 0 1em .9em;
 }
 
+/* show more text styling */
 .body2 section:nth-of-type(1) h6 {
-  padding: 0 0 0 1em;
   font-size:.9em;
 }
+
 .body2 section:nth-of-type(1) h6 > a{
   text-decoration: blue underline;
   color:blue;
   cursor: pointer;
+}
+
+.body2 section:nth-of-type(1) button {
+  background-color: black;
+  color: var(--sub-text);
+  font-size:1em;
+  border: none;
+  display:flex;
+  margin-left:1em;
+}
+
+/* to hide/show text */
+p span {
+  display: inline-block;
+}
+
+.moreText {
+  display:none;
+}
+
+.moreText.showText {
+  display:block;
+}
+
+.moreText.hideText {
+  display: none;
 }
 
 .body2 section:nth-of-type(1) ul {
@@ -485,19 +541,13 @@ footer > a > svg {
   padding: .5em 1em .5em 1em;
   border-radius: .3em;
   border:none;
-  margin:0 0 1.5em 2em;
+  margin:0 .5em 1em 1em;
   cursor:pointer; 
   color:white;
   background-color:var(--soundc-orange);
 }
 
-.body2 section:nth-of-type(1) button {
-  background-color: black;
-  color: var(--sub-text);
-  font-size:.8em;
-  border: none;
-  display:flex;
-}
+
 
 .body2 section:nth-of-type(1) ul > li > button:hover,
 .body2 section:nth-of-type(1) ul > li > button:active,
@@ -526,7 +576,19 @@ footer > a > svg {
   width:auto;
   order:-6;
   margin-bottom:5em;
+}
 
+/* eerste section responsive maken */
+@media (min-width:600px) {
+  .body2 section:nth-of-type(1) img:nth-of-type(1) {
+    width:14em;
+  }
+}
+
+@media (min-width:600px) {
+  .body2 section:nth-of-type(1) p {
+    width:70%;
+  }
 }
 
 /* tweede section styling */
@@ -552,7 +614,6 @@ footer > a > svg {
   flex-direction: row;
 }
 
-.body2 section:nth-of-type(2) a:hover,
 .body2 section:nth-of-type(2) a:active,
 .body2 section:nth-of-type(2) a:focus {
   outline: 3px solid var(--soundc-orange);
@@ -566,6 +627,18 @@ footer > a > svg {
   border-radius:.5em;
   margin-right:.5em;
   order:-1;
+}
+
+@media (min-width:600px) {
+  .body2 section:nth-of-type(2) ul {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
+}
+@media (min-width:600px) {
+  .body2 section:nth-of-type(2) li {
+    padding-right:1em;
+  }
 }
 
 
@@ -592,7 +665,6 @@ footer > a > svg {
   flex-direction: row;
 }
 
-.body2 section:nth-of-type(3) a:hover,
 .body2 section:nth-of-type(3) a:active,
 .body2 section:nth-of-type(3) a:focus {
   outline: 3px solid var(--soundc-orange);
@@ -606,6 +678,18 @@ footer > a > svg {
   border-radius:.5em;
   margin-right:.5em;
   order:-1;
+}
+
+@media (min-width:600px) {
+  .body2 section:nth-of-type(3) ul {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+  }
+}
+@media (min-width:600px) {
+  .body2 section:nth-of-type(3) li {
+    padding-right:1em;
+  }
 }
 
 /* vierde section styling */
@@ -622,7 +706,6 @@ footer > a > svg {
   flex-direction:column;
 }
 
-.body2 section:nth-of-type(4) a:hover,
 .body2 section:nth-of-type(4) a:active,
 .body2 section:nth-of-type(4) a:focus {
   outline: 3px solid var(--soundc-orange);
@@ -632,6 +715,7 @@ footer > a > svg {
 
 .body2 section:nth-of-type(4) h3 {
   line-height:1.2em;
+  width:7em;
 }
 
 .body2 section:nth-of-type(4) img {
@@ -657,7 +741,6 @@ footer > a > svg {
   cursor: pointer;
 }
 
-.body2 section:nth-of-type(5) a:hover,
 .body2 section:nth-of-type(5) a:active,
 .body2 section:nth-of-type(5) a:focus {
   outline: 3px solid var(--soundc-orange);
@@ -669,6 +752,22 @@ footer > a > svg {
 .User_SocialMediaIcon__1yY5G {
   width:2em;
   margin-right:.6em;
+}
+
+@keyframes links-animation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform:rotate(1turn);
+  }
+}
+
+.User_SocialMediaIcon__1yY5G:hover,
+.User_SocialMediaIcon__1yY5G:active,
+.User_SocialMediaIcon__1yY5G:focus {
+  animation-name: links-animation;
+  animation-duration: 2s;;
 }
 
 
@@ -692,7 +791,6 @@ footer > a > svg {
   flex-direction:column;
 }
 
-.body2 section:nth-of-type(6) a:hover,
 .body2 section:nth-of-type(6) a:active,
 .body2 section:nth-of-type(6) a:focus {
   outline: 3px solid var(--soundc-orange);
