@@ -153,7 +153,7 @@ In het algemeen was alles goed, alleen een paar kleine details die ik moet fixen
 - wit was geel, oranje, was meer een rood
 - dus als het contrast van de kleuren veranderen dan moet je dit wel aanpassen zodat het duidelijk blijft voor iedereen.
 
-<img src="images/color.HEIC" width="375px" alt="Color">
+<img src="images/color.jpg" width="375px" alt="Color">
 
 
 #### Titel volgende bevinding. 
@@ -163,7 +163,7 @@ In het algemeen was alles goed, alleen een paar kleine details die ik moet fixen
 - kleine text/dunner tekst was niet leesbaar
 - hier zou je de tekst grote kunnen aanpassen zodat er geen tekst die heel klein is 
 
-<img src="images/blurry.HEIC" width="375px" alt="Color">
+<img src="images/blurry.jpg" width="375px" alt="Color">
 
 #### Titel nog een bevinding. 
 <strong>Screenreader</strong>
