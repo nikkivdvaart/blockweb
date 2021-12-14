@@ -40,11 +40,11 @@ Surface Plane en Responsive
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home Page 
-<img src="images/breakdownschets.png" width="375px" alt="Home Page - Soundcloud">
+<img src="images/homepage.png" width="375px" alt="Home Page - Soundcloud">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Song Page 
-<img src="images/breakdownschets3.png" width="375px" alt="Song Page - Soundcloud">
+Artist Page 
+<img src="images/songpage.png" width="375px" alt="Song Page - Soundcloud">
  
 </details>
 
@@ -56,7 +56,7 @@ Song Page
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
