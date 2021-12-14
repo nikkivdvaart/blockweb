@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
 	
 <head>
 	<meta charset="UTF-8">
@@ -37,13 +37,33 @@
 
 	<main>
         <section>
-            <h1>Jack &Uuml;</h1>
+            <h1>Jack &Uuml;  <svg class="User_UsernameIcon__3W2T1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M15 8A7 7 0 111 8a7 7 0 0114 0z" fill="currentColor"></path><path d="M11.97 4.7l1.06 1.06-6.53 6.531-3.53-3.53L4.03 7.7l2.47 2.47 5.47-5.47z" fill="#fff"></path></svg>
+            </h1>
             <p>514.6K Followers</p>
-            <button>Play All</button>
-            <button>Follow</button>
-            <p>Winners of the 2016 Grammy Award for Best Dance/Electronic Album (Skrillex and Diplo Present Jack Ù) and Best Dance Recording (Where Are Ü Now featuring Justin Bieber)</p>
+
+            <ul>
+                <li><button>Play All</button></li>
+                <li><button><svg class="UserProfile_FollowIcon__KA1kX" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M4.25 7C4.25 3.27208 7.27208 0.25 11 0.25C14.7279 0.25 17.75 3.27208 17.75 7C17.75 10.7279 14.7279 13.75 11 13.75C7.27208 13.75 4.25 10.7279 4.25 7ZM11 1.75C8.1005 1.75 5.75 4.10051 5.75 7C5.75 9.8995 8.1005 12.25 11 12.25C13.8995 12.25 16.25 9.8995 16.25 7C16.25 4.10051 13.8995 1.75 11 1.75Z"></path><path d="M22.25 13.75V17H23.75V13.75H27V12.25H23.75V9H22.25V12.25H19V13.75H22.25Z"></path><path d="M11 15.25C6.64119 15.25 3.85056 16.2797 2.20786 18.4309C0.606833 20.5274 0.25 23.5115 0.25 27V27.75H21.75V27C21.75 23.4974 21.3934 20.5126 19.7917 18.4192C18.1484 16.2715 15.3572 15.25 11 15.25ZM20.2437 26.25H1.75635C1.81071 23.1538 2.22469 20.8803 3.40001 19.3412C4.6266 17.735 6.83596 16.75 11 16.75C15.1657 16.75 17.3745 17.7285 18.6004 19.3308C19.7755 20.8666 20.1895 23.1401 20.2437 26.25Z"></path></g></svg>
+                        Follow
+                    </button>
+                </li>
+            </ul>
+
+            <p>Winners of the 2016 Grammy Award for Best Dance/Electronic Album (Skrillex and Diplo Present Jack Ù) and Best Dance Recording (Where Are Ü Now featuring Justin <span id="showLess">...</span>
+                <!-- text that will be shown after they click show more -->
+                <span id="moreText">Bieber) 
+                    <h6>Jack &Uuml; Apparel: <a>jackustuff.com</a></h6>
+                    <h6>SKRILLEX AND DIPLO PRESENT JACK &Uuml;</h6>
+                    <h6>iTunes: <a>smarturl.it/PresentingJackU</a></h6>
+                    <h6>Spotify: <a>smarturl.it/S_PresentingJackU</a></h6>
+                    <h6>Spotify: <a>smarturl.it/B_PresentingJackU</a></h6>
+                </span>
+            </p>
+
+            <button onclick="toggleText()" id="textButton">Show More</button>
+
             <img src="images/jacku.png" alt="jack u profile picture">
-            <img src="" alt="jack u header photo">
+            <img src="images/jackuheader.jpg" alt="jack u header photo">
         </section>
 
         <section>
@@ -51,28 +71,49 @@
 
             <ul>
                 <li>
-                    <h3>Where Are &Uuml; Now (with Justin Bieber)</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <p>4:10</p>
+                    <a href="#">
+                        <!-- used div for styling purposes; to get the text next to the img -->
+                        <div>
+                            <h3>Where Are &Uuml; Now (with Justin Bieber)</h3>
+                            <h4>Jack &Uuml;</h4>
+                            <p>4:10</p>
+                        </div>
+                        <img src="images/populartracks.png" alt="Where Are &Uuml; Now (with Justin Bieber)">
+                    </a>
                 </li>
             
 
                 <li>
-                    <h3>To &Uuml; Now (feat. AlunaGeorge)</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <p>3:57</p>
+                    <a href="#">
+                        <div>
+                            <h3>To &Uuml; Now (feat. AlunaGeorge)</h3>
+                            <h4>Jack &Uuml;</h4>
+                            <p>3:57</p>
+                        </div>
+                        <img src="images/populartracks.png" alt="To &Uuml; Now (feat. AlunaGeorge)">
+                    </a>
                 </li>
 
                 <li>
-                    <h3>Mind (feat. Kai)</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <p>4:02</p>
+                    <a href="#">
+                        <div>
+                            <h3>Mind (feat. Kai)</h3>
+                            <h4>Jack &Uuml;</h4>
+                            <p>4:02</p>
+                        </div>
+                        <img src="images/populartracks.png" alt="To &Uuml; Now (feat. AlunaGeorge)">
+                    </a>
                 </li>
 
                 <li>
-                    <h3>Take &Uuml; There (feat. Kiesza) (Zeds Dead Remix)</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <p>4:07</p>
+                    <a href="#">
+                        <div>
+                            <h3>Take &Uuml; There (feat. Kiesza) (Zeds Remix)</h3>
+                            <h4>Jack &Uuml;</h4>
+                            <p>4:07</p>
+                        </div>
+                        <img src="images/takeuthere.png" alt="Take &Uuml; There (feat. Kiesza) (Zeds Dead Remix)">
+                    </a>
                 </li>
             </ul>
         </section>
@@ -82,27 +123,48 @@
 
             <ul>
                 <li>
-                    <h3>Mind (feat. Kai) (Malaa Remix)</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <p>4:48</p>
+                    <a href="#">
+                        <!-- used div for styling purposes; to get the text next to the img -->
+                        <div>
+                            <h3>Mind (feat. Kai) (Malaa Remix)</h3>
+                            <h4>Jack &Uuml;</h4>
+                            <p>4:48</p>
+                        </div>
+                        <img src="images/mind.png" alt="Mind (feat. Kai) (Malaa Remix)">
+                    </a>
                 </li>
 
                 <li>
-                    <h3>Mind (feat. Kai) (Ekali & Gravez Remix)</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <p>4:15</p>
+                    <a href="#">
+                        <div>
+                            <h3>Mind (feat. Kai) (Ekali & Gravez Remix)</h3>
+                            <h4>Jack &Uuml;</h4>
+                            <p>4:15</p>
+                        </div>
+                        <img src="images/mind.png" alt="Mind (feat. Kai) (Ekali & Gravez Remix)">
+                    </a>
                 </li>
 
                 <li>
-                    <h3>Mind (feat. Kai) (Oshi Remix)</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <p>4:24</p>
+                    <a href="#">
+                        <div>
+                            <h3>Mind (feat. Kai) (Oshi Remix)</h3>
+                            <h4>Jack &Uuml;</h4>
+                            <p>4:24</p>
+                        </div>
+                        <img src="images/mind.png" alt="Mind (feat. Kai) (Oshi Remix)">
+                    </a>
                 </li>
 
                 <li>
-                    <h3>Mind (feat. Kai) (Happy Colors Remix)</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <p>3:07</p>
+                    <a href="#">
+                        <div>
+                            <h3>Mind (feat. Kai) (Happy Colors Remix)</h3>
+                            <h4>Jack &Uuml;</h4>
+                            <p>3:07</p>
+                        </div>
+                        <img src="images/mind.png" alt="Mind (feat. Kai) (Happy Colors Remix)">
+                    </a>
                 </li>
             </ul>
         </section>
@@ -112,33 +174,43 @@
     
             <ul>
                 <li>
-                    <h3>Mind (feat. Kai) REMIXES</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <a href="#"><img src="images/allmusic.png" alt="All music genres"></a>
+                    <a href="#">
+                        <h3>Mind (feat. Kai) REMIXES</h3>
+                        <h4>Jack &Uuml;</h4>
+                        <img src="images/mind.png" alt="Mind (feat. Kai) REMIXES">
+                    </a>
                 </li>
     
                 <li>
-                    <h3>To &Uuml; Remix EP</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <a href="#"><img src="images/allmusic.png" alt="Hip Hop & Rap"></a>
+                    <a href="#">
+                        <h3>To &Uuml; Remix EP</h3>
+                        <h4>Jack &Uuml;</h4>
+                        <img src="images/tou.png" alt="Mind (feat. Kai) REMIXES">
+                    </a>
                 </li>
     
                 <li>
-                    <h3>Where Are &Uuml; Now REMIX EP</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <a href="#"><img src="images/house.png" alt="House"></a>
+                    <a href="#">
+                        <h3>Where Are &Uuml; Now REMIX EP</h3>
+                        <h4>Jack &Uuml;</h4>
+                        <img src="images/whererunow.png" alt="Where Are &Uuml; Now REMIX EP">
+                    </a>
                 </li>
     
                 <li>
-                    <h3>Skrillex & Diplo Present Jack &Uuml;</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <a href="#"><img src="images/globalbeats.png" alt="Global Beats"></a>
+                    <a href="#">
+                        <h3>Skrillex & Diplo Present Jack &Uuml;</h3>
+                        <h4>Jack &Uuml;</h4>
+                        <img src="images/u.png" alt="Skrillex & Diplo Present Jack &Uuml;">
+                    </a>
                 </li>
     
                 <li>
-                    <h3>Take &Uuml; There Remixes</h3>
-                    <h4>Jack &Uuml;</h4>
-                    <a href="#"><img src="images/electronic1.png" alt="Electronics"></a>
+                    <a href="#">
+                        <h3>Take &Uuml; There Remixes</h3>
+                        <h4>Jack &Uuml;</h4>
+                        <img src="images/takeuthere2.png" alt="Take &Uuml; There Remixes">
+                    </a>
                 </li>
             </ul>
         </section>
@@ -148,19 +220,22 @@
 
             <ul>
                 <li>
-                    <a>Jack &Uuml; Website</a>
-                    <img src="">
+                    <a><svg viewBox="2 2 12 12" class="User_SocialMediaIcon__1yY5G" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M8 2C4.688 2 2 4.688 2 8s2.688 6 6 6 6-2.688 6-6-2.688-6-6-6zm-.6 10.758A4.793 4.793 0 0 1 3.2 8c0-.372.048-.726.126-1.074L6.2 9.8v.6c0 .66.54 1.2 1.2 1.2v1.158zm4.14-1.524a1.19 1.19 0 0 0-1.14-.834h-.6V8.621c0-.33-.27-.621-.6-.621H5.6V6.8h1.2c.33 0 .6-.27.6-.6V5h1.2c.66 0 1.2-.54 1.2-1.2v-.246c1.758.714 3 2.436 3 4.446 0 1.248-.48 2.382-1.26 3.234z" fill="currentColor" fill-rule="nonzero"></path></svg>
+                        Jack &Uuml; Website
+                    </a>
                 </li>
 
 
                 <li>
-                    <a>Jack &Uuml; Facebook</a>
-                    <img src="">
+                    <a><svg viewBox="0 0 32 32" class="User_SocialMediaIcon__1yY5G" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="currentColor" d="M30 16.0856C30 8.30633 23.732 2 16 2C8.26801 2 2 8.30633 2 16.0856C2 23.1161 7.1196 28.9434 13.8125 30V20.1572H10.2578V16.0856H13.8125V12.9824C13.8125 9.45216 15.9026 7.50219 19.1005 7.50219C20.6322 7.50219 22.2344 7.7773 22.2344 7.7773V11.2437H20.469C18.7299 11.2437 18.1875 12.3294 18.1875 13.4434V16.0856H22.0703L21.4496 20.1572H18.1875V30C24.8804 28.9434 30 23.1161 30 16.0856Z"></path></svg>
+                        Jack &Uuml; Facebook
+                    </a>
                 </li>
 
                 <li>
-                    <a>Jack &Uuml; Apparel</a>
-                    <img src="">
+                    <a><svg viewBox="2 2 12 12" class="User_SocialMediaIcon__1yY5G" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M8 2C4.688 2 2 4.688 2 8s2.688 6 6 6 6-2.688 6-6-2.688-6-6-6zm-.6 10.758A4.793 4.793 0 0 1 3.2 8c0-.372.048-.726.126-1.074L6.2 9.8v.6c0 .66.54 1.2 1.2 1.2v1.158zm4.14-1.524a1.19 1.19 0 0 0-1.14-.834h-.6V8.621c0-.33-.27-.621-.6-.621H5.6V6.8h1.2c.33 0 .6-.27.6-.6V5h1.2c.66 0 1.2-.54 1.2-1.2v-.246c1.758.714 3 2.436 3 4.446 0 1.248-.48 2.382-1.26 3.234z" fill="currentColor" fill-rule="nonzero"></path></svg>
+                        Jack &Uuml; Apparel
+                    </a>
                 </li>
             </ul>
         </section>
@@ -170,58 +245,110 @@
 
 			<ul>
 				<li>
-					<h3>The Chainsmokers</h3>
-					<p>1.1M Followers</p>
-					<a href="#"><img src="images/chainsmokers.png" alt="The Chainsmokers"></a>
+                    <a href="#">
+					    <h3>The Chainsmokers</h3>
+					    <p>1.1M Followers</p>
+					    <img src="images/chainsmokers.png" alt="The Chainsmokers">
+                    </a>
 					<button>Follow</button>
 				</li>
 
 				<li>
-					<h3>CHEAT CODES</h3>
-					<p>66.8K Followers</p>
-					<a href="#"><img src="images/cheatcodes.png" alt="CHEAT CODES"></a>
+                    <a href="#">
+					    <h3>CHEAT CODES</h3>
+					    <p>66.8K Followers</p>
+					    <img src="images/cheatcodes.png" alt="CHEAT CODES">
+                    </a>
 					<button>Follow</button>
 				</li>
 
 				<li>
-					<h3>LOUD LUXURY</h3>
-					<p>46.6K Followers</p>
-					<a href="#"><img src="images/loudluxury.png" alt="LOUD LUXURY"></a>
+                    <a href="#">
+					    <h3>LOUD LUXURY</h3>
+					    <p>46.6K Followers</p>
+					    <img src="images/loudluxury.png" alt="LOUD LUXURY">
+                    </a>
 					<button>Follow</button>
 				</li>
 
 				<li>
-					<h3>Major Lazer</h3>
-					<p>4.2m Followers</p>
-					<a href="#"><img src="images/majorlazer.png" alt="Major Lazer"></a>
+                    <a href="#">
+					    <h3>Major Lazer</h3>
+					    <p>4.2m Followers</p>
+					    <img src="images/majorlazer.png" alt="Major Lazer">
+                    </a>
 					<button>Follow</button>
 				</li>
 
 				<li>
-					<h3>Keys N Krates</h3>
-					<p>301.3K Followers</p>
-					<a href="#"><img src="images/keysnkrates.png" alt="Keys N Krates"></a>
+                    <a href="#">
+					    <h3>Keys N Krates</h3>
+					    <p>301.3K Followers</p>
+					    <img src="images/keysnkrates.png" alt="Keys N Krates">
+                    </a>
 					<button>Follow</button>
 				</li>
 
 				<li>
-					<h3>Justin Bieber</h3>
-					<p>1.2M Followers</p>
-					<a href="#"><img src="images/jb.png" alt="Justin Bieber"></a>
+                    <a href="#">
+					    <h3>Justin Bieber</h3>
+					    <p>1.2M Followers</p>
+					    <img src="images/jb.png" alt="Justin Bieber">
+                    </a>
 					<button>Follow</button>
 				</li>
 
 				<li>
-					<h3>Mike Posner</h3>
-					<p>91.2K Followers</p>
-					<a href="#"><img src="images/mikeposner.png" alt="Mike Posner"></a>
+                    <a href="#">
+					    <h3>Mike Posner</h3>
+					    <p>91.2K Followers</p>
+					    <img src="images/mikeposner.png" alt="Mike Posner">
+                    </a>
 					<button>Follow</button>
 				</li>
 
 				<li>
-					<h3>DJ Snake</h3>
-					<p>966.5K Followers</p>
-					<a href="#"><img src="images/djsnake.png" alt="DJ Snake"></a>
+                    <a href="#">
+					    <h3>DJ Snake</h3>
+					    <p>966.5K Followers</p>
+					    <img src="images/djsnake.png" alt="DJ Snake">
+                    </a>
+					<button>Follow</button>
+				</li>
+
+                <li>
+					<a href="#">
+						<h3>Ja Feel</h3>
+						<p>23.2K Followers</p>
+						<img src="images/jafeel.png" alt="Ja Feel">
+					</a>
+					<button>Follow</button>
+				</li>
+
+				<li>
+					<a href="#">
+						<h3>Austin24heck</h3>
+						<p>2414 Followers</p>
+						<img src="images/austion24heck.png" alt="Austin24heck">
+					</a>
+					<button>Follow</button>
+				</li>
+
+				<li>
+					<a href="#">
+						<h3>Playlists Daily</h3>
+						<p>34K Followers</p>
+						<img src="images/playlistsdaily.png" alt="Playlists Daily">
+					</a>
+					<button>Follow</button>
+				</li>
+
+				<li>
+					<a href="#">
+						<h3>Digital Records</h3>
+						<p>20.3K Followers</p>
+						<img src="images/digitalrecords.png" alt="Digital Records">
+					</a>
 					<button>Follow</button>
 				</li>
 			</ul>
@@ -246,6 +373,11 @@
 			<li><a href="#">Consent Manager</a></li>
 			<li><a href="#">Copyright</a></li>
 		</ul>
+
+        <a href="#"><svg viewBox="0 0 32 32" class="FooterSocialLinkItem_FooterSocialLinkLogo__3xTll" xmlns="http://www.w3.org/2000/svg" aria-hidden="false"><title>Follow us on Instagram</title><g><path d="M8.62945 16.0244C8.62945 11.9469 11.9468 8.62957 16.0243 8.62957C20.1019 8.62957 23.4192 11.9469 23.4192 16.0244C23.4192 20.1019 20.1019 23.4193 16.0243 23.4193C11.9468 23.4193 8.62945 20.1019 8.62945 16.0244ZM11.5058 16.0244C11.5058 18.52 13.5288 20.543 16.0243 20.543C18.5198 20.543 20.5429 18.5199 20.5429 16.0244C20.5429 13.5289 18.5199 11.5059 16.0243 11.5059C13.5288 11.5059 11.5058 13.5289 11.5058 16.0244Z" fill="currentColor"></path><path d="M23 10.0001C23.5523 10.0001 24 9.55241 24 9.00012C24 8.44784 23.5523 8.00012 23 8.00012C22.4477 8.00012 22 8.44784 22 9.00012C22 9.55241 22.4477 10.0001 23 10.0001Z" fill="currentColor"></path><path d="M10.2461 1.72852H21.8026C26.4992 1.72852 30.3202 5.54952 30.3202 10.2462V21.8027C30.3202 26.4994 26.4992 30.3204 21.8026 30.3204H10.2461C5.5494 30.3204 1.72839 26.4994 1.72839 21.8027V10.2462C1.72839 5.54952 5.5494 1.72852 10.2461 1.72852ZM21.8026 27.444C24.9182 27.444 27.4439 24.9183 27.4439 21.8027V10.2462C27.4439 7.13054 24.9182 4.60485 21.8026 4.60485H10.2461C7.13047 4.60485 4.6085 7.13054 4.6085 10.2462V21.8027C4.6085 24.9183 7.13047 27.444 10.2461 27.444H21.8026Z" fill="currentColor"></path></g></svg> 
+			<svg viewBox="0 0 32 32" class="FooterSocialLinkItem_FooterSocialLinkLogo__3xTll" xmlns="http://www.w3.org/2000/svg" aria-hidden="false"><title>Like our Facebook page</title><path fill="currentColor" d="M30 16.0856C30 8.30633 23.732 2 16 2C8.26801 2 2 8.30633 2 16.0856C2 23.1161 7.1196 28.9434 13.8125 30V20.1572H10.2578V16.0856H13.8125V12.9824C13.8125 9.45216 15.9026 7.50219 19.1005 7.50219C20.6322 7.50219 22.2344 7.7773 22.2344 7.7773V11.2437H20.469C18.7299 11.2437 18.1875 12.3294 18.1875 13.4434V16.0856H22.0703L21.4496 20.1572H18.1875V30C24.8804 28.9434 30 23.1161 30 16.0856Z"></path></svg> 
+			<svg viewBox="0 0 32 32" class="FooterSocialLinkItem_FooterSocialLinkLogo__3xTll" xmlns="http://www.w3.org/2000/svg" aria-hidden="false"><title>Follow us on Twitter</title><path fill="currentColor" d="M30.4451 5.42778C29.2892 6.10833 28.007 6.59444 26.6441 6.85694C25.5543 5.71944 23.9989 5 22.2773 5C18.974 5 16.2948 7.63472 16.2948 10.8917C16.2948 11.3486 16.3473 11.8056 16.4484 12.2333C11.476 11.9903 7.06646 9.6375 4.11508 6.07917C3.60083 6.94444 3.30433 7.95556 3.30433 9.04444C3.30433 11.0861 4.36298 12.8847 5.96796 13.9444C4.98805 13.9153 4.06453 13.6431 3.25767 13.2056V13.2833C3.25767 16.1319 5.32052 18.5139 8.05802 19.0583C7.55446 19.1944 7.0266 19.2625 6.48027 19.2625C6.09433 19.2625 5.72104 19.2236 5.35454 19.1556C6.11766 21.4986 8.32536 23.2 10.9443 23.2486C8.89502 24.8236 6.31695 25.7667 3.5114 25.7667C3.02728 25.7667 2.55288 25.7375 2.08334 25.6889C4.73336 27.3611 7.87915 28.3333 11.2573 28.3333C22.2637 28.3333 28.2811 19.3597 28.2811 11.5722C28.2811 11.3194 28.2773 11.0667 28.2656 10.8139C29.4331 9.97778 30.449 8.94722 31.25 7.76111C30.1778 8.22778 29.0248 8.54861 27.8135 8.68472C29.0501 7.96528 29.9969 6.80833 30.4451 5.42778Z"></path></svg>
+		</a>
 
 	</footer>
 
